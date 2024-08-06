@@ -42,6 +42,6 @@ if(isset($_POST["add_event"])) {
     echo "event already exist";
     }
     include "view_all_events.php";
-    mysqli_close($conn);
+    // mysqli_close($conn);
 }
 ?>

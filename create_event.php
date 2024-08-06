@@ -20,6 +20,9 @@
     Description: <br>
     <textarea name="description" cols="" rows="5"></textarea><br>
     <input type="submit" name="add_event" value="Add Event">
-   </form> 
+    <?php
+   echo '<button><a href="./Home.html">Home</a></button>';
+   ?>
+   </form>
 </body>
 </html>

@@ -7,4 +7,7 @@ $sql = "DELETE FROM events WHERE id= $Id";
 if(mysqli_query($conn, $sql)){
     echo"event deleted";
 }
+
+header("location:view_all_events.php");
+
 ?>
